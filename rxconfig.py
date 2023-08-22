@@ -3,7 +3,8 @@ import reflex as rx
 config = rx.Config(
     port=3000,
     app_name="pcweb",
-    deploy_url="https://reflex.dev",
+    api_url="https://reflex-web-bx4g-dev.fl0.io:8000",
+    deploy_url="https://reflex-web-bx4g-dev.fl0.io",
     frontend_packages=[
         "react-confetti",
         "react-colorful",
